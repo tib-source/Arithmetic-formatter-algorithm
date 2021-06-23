@@ -1,4 +1,4 @@
-```python
+
 def arithmetic_arranger(problems, display=False):
     if len(problems) > 5:
       return "Error: Too many problems."
@@ -71,5 +71,4 @@ def arithmetic_arranger(problems, display=False):
       return "\n".join(str)
     zipped = list(zip(*answer_list))
     return unpacker(zipped)
-```
 
